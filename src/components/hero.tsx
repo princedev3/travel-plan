@@ -44,7 +44,7 @@ const Hero = () => {
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.5, type: "spring", stiffness: 100 }}
-          className=" relative min-h-[80vh] "
+          className=" relative min-h-[40vh] "
         >
           <Image src={"/travel.png"} alt="" className="object-contain" fill />
         </motion.div>

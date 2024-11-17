@@ -39,7 +39,7 @@ const Services = () => {
             key={index}
             className={`${
               service.id === activeId ? "shadow-lg rounded-[40px] bg-white" : ""
-            } flex flex-col items-center cursor-pointer min-h-[40vh] w-[250px] relative mx-auto `}
+            } flex flex-col items-center cursor-pointer min-h-[30vh]  w-[250px] relative mx-auto `}
           >
             <div
               className={`${

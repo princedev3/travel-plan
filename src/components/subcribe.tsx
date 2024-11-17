@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const Subcribe = () => {
   return (
-    <div className="relative p-10 grid mx-auto my-10 min-h-[80vh] overflow-hidden z-0">
+    <div className="relative p-10 grid mx-auto my-10 min-h-[50vh] overflow-hidden z-0">
       <div className="bg-[#DFD7F9]/40  relative rounded-tl-[120px] rounded-3xl  z-0 p-7 md:p-16 grid place-content-center gap-y-6 md:gap-y-10 ">
         <div className="bg-blue-900 w-fit absolute -top-2 rounded-full -right-2 md:-right-3 ">
           <Send size={40} />
@@ -24,7 +24,7 @@ const Subcribe = () => {
           Subscribe to get information, latest news and other interesting offers
           about Jadoo
         </h1>
-        <div className="flex justify-center items-center gap-6">
+        <div className="flex flex-col justify-center  items-center gap-6">
           <div className="flex items-center  bg-white  rounded px-3 py-2">
             <Mail className="text-gray-300 mr-2" />
             <input

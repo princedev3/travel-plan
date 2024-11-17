@@ -83,19 +83,19 @@ export const testimonials = [
     name: "John Doe",
     role: "CEO of Company",
     image: "/user1.jpg",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,  consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras ",
+    text: "Lorem ipsum dolor sit amet,   consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras ",
   },
   {
     name: "John Doe",
     role: "CEO of Company",
     image: "/user2.jpeg",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,  consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras ",
+    text: "Lorem ipsum dolor sit amet, sse lectus tortor,  consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras ",
   },
   {
     name: "John Doe",
     role: "CEO of Company",
     image: "/user3.jpg",
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,  consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras ",
+    text: "Lorem ipsum dolor sit amet,  lectus tortor,  consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras ",
   },
 ];
 
