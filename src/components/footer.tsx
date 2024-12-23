@@ -6,7 +6,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <div className="p-10 grid  gap-6 grid-cols-[repeat(auto-fill,minmax(210px,1fr))]">
+      <div className="p-10 grid w-full gap-6 grid-cols-[repeat(auto-fill,minmax(210px,1fr))]">
         <div className="flex flex-col gap-3">
           <Image src={"/footer-jadoo.png"} width={150} height={150} alt="" />
           <div className="">

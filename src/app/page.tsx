@@ -7,7 +7,7 @@ import TopDestination from "@/components/top-destination";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden grid content-start">
       <Hero />;
       <Services />
       <TopDestination />

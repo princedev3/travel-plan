@@ -15,7 +15,7 @@ const EasyAndFast = () => {
   return (
     <div className=" p-10 grid grid-flow-row gap-y-7 my-10">
       <h1 className="text-blue-950 text-lg">Easy and Fast</h1>
-      <div className="grid grid-cols-1  lg:grid-cols-2 gap-10 ">
+      <div className="grid grid-cols-1  lg:grid-cols-2 gap-10">
         <div className=" ">
           <h1 className="text-4xl font-bold text-blue-950">
             Book your next trip
@@ -72,7 +72,7 @@ const EasyAndFast = () => {
           className="shadow-lg rounded-lg p-6 relative  "
         >
           <div className="bg-[url('/shadow.png')]  left-1/2 -top-1/2 absolute w-[400px] h-[400px] bg-cover bg-center bg-no-repeat -z-20 opacity-30 " />
-          <div className="w-full h-[35vh] relative rounded-2xl overflow-hidden">
+          <div className="w-full h-[15vh] relative rounded-2xl overflow-hidden">
             <Image
               src={"/sani.jpg"}
               alt=""

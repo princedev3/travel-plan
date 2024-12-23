@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <div>
       <div className="p-10 flex flex-col-reverse md:grid md:grid-cols-2 gap-y-6 ">
-        <div className="p-3 grid   mx-auto gap-y-5 ">
+        <div className="p-3 grid content-start  mx-auto gap-y-5 ">
           <p className="text-orange-600 font-medium ">
             Best Destinations around the world
           </p>
@@ -44,7 +44,7 @@ const Hero = () => {
           initial={{ y: -100, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1.5, type: "spring", stiffness: 100 }}
-          className=" relative min-h-[40vh] "
+          className=" relative min-h-[40vh] md:min-h-[0vh]"
         >
           <Image src={"/travel.png"} alt="" className="object-contain" fill />
         </motion.div>

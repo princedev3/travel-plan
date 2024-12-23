@@ -9,7 +9,7 @@ import React from "react";
 const Header = () => {
   const openModal = useCartStore((state) => state.setOpen);
   return (
-    <div className="h-20 w-full flex justify-between items-center   px-7">
+    <div className="h-20  w-full flex justify-between items-center   px-7">
       <div className="">
         <Image src="/Logo.png" width={60} height={60} alt="logo" />
       </div>

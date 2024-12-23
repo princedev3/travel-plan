@@ -22,7 +22,7 @@ const Services = () => {
     }),
   };
   return (
-    <div className="relative p-10  my-10">
+    <div className="relative p-10   ">
       <div className="absolute top-0 right-[40px]  w-[120px] h-[120px] bg-[url('/card.png')] opacity-75"></div>
       <Heading title="CATEGORY" description="We Offer Best Services" />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-10 mt-10">
@@ -39,7 +39,7 @@ const Services = () => {
             key={index}
             className={`${
               service.id === activeId ? "shadow-lg rounded-[40px] bg-white" : ""
-            } flex flex-col items-center cursor-pointer min-h-[30vh]  w-[250px] relative mx-auto `}
+            } flex flex-col items-center cursor-pointer  w-[250px] relative mx-auto `}
           >
             <div
               className={`${

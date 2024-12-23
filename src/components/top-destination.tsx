@@ -14,7 +14,7 @@ const TopDestination = () => {
     visible: { x: 0, y: 0, opacity: 1 },
   };
   return (
-    <div className="relative p-10  my-10">
+    <div className="relative p-10  my-10 ">
       <Heading title="Top Selling" description="Top Destinations" />
 
       <div className=" relative">
